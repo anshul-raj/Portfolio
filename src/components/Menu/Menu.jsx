@@ -8,7 +8,10 @@ export default function Menu({openmenu,setopenmenu}) {
                     <a href="#intro" onClick={()=>setopenmenu(!openmenu)}>Intro</a>
                 </li>
                 <li>
-                    <a href="#work" onClick={()=>setopenmenu(!openmenu)}>Work</a>
+                    <a href="#projects" onClick={()=>setopenmenu(!openmenu)}>Projects</a>
+                </li>
+                <li>
+                    <a href="#edu" onClick={()=>setopenmenu(!openmenu)}>Education</a>
                 </li>
                 <li>
                     <a href="#contact" onClick={()=>setopenmenu(!openmenu)}>contact</a>

@@ -13,6 +13,9 @@ export default function Topbar({openmenu,setopenmenu}) {
                     </div>
                 </div>
                 <div className="right">
+                    <div className="resumebutton">
+                        <a href="../../assets/Resume.pdf" target='_blank' className='btn-2'>Resume</a> 
+                    </div>
                     <div className="hamburger" onClick={()=>setopenmenu(!openmenu)}>
                         <span className="line1"></span>
                         <span className="line2"></span>    

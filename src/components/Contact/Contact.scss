@@ -89,6 +89,7 @@
             align-content: center;
             justify-content: space-between;
             justify-items: center;
+            padding-bottom: 10px;
             
             @include mobile{
                 height: 30vh;
@@ -249,7 +250,7 @@
                 padding-left: 10px;
                 padding-top: 5px;
                 padding-right: 5px;
-                
+                padding-bottom: 5px;
                 @include mobile{
                     width: 80vw;
                     margin-left: 0px;
